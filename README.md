@@ -1,4 +1,4 @@
-# [tktk Module Name]
+# Intro to JavaScript Objects
 
 ![Hero image](./assets/tktkhero-main.png)
 

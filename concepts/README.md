@@ -1,4 +1,4 @@
-# [tktk Module Name] - tktk Microlesson Name
+# Intro to JavaScript Objects - tktk Microlesson Name
 
 ![Hero image](./assets/hero.png)
 

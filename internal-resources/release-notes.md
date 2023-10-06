@@ -1,4 +1,4 @@
-# [tktk Module Name] - Release Notes
+# Intro to JavaScript Objects - Release Notes
 
 ![Hero image](../assets/tktkhero-secondary.png)
 
