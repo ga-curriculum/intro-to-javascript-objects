@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to change and delete properties from an object. 
 
 ## Changing an object's properties
 
