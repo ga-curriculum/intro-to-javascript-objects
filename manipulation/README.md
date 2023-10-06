@@ -1,4 +1,4 @@
-# Intro to JavaScript Objects - tktk Microlesson Name
+# Intro to JavaScript Objects - Manipulation
 
 ![Hero image](./assets/hero.png)
 
