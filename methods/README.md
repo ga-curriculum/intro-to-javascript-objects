@@ -46,16 +46,15 @@ const myArray = [1, 2, 3, 4, 5]
 
 myArray.join(' - ') // returns: 1 - 2 - 3 - 4 - 5
 ```
-
 can still make use of an array method like `.join()`. It is inheriting these methods from the `Array.prototype` object. 
 
-> 🧠 You may have noticed that methods on MDN always have a title syntax like 'Array.prototype.forEach' or 'Number.prototype.
+> 🧠 You may have noticed that methods on MDN always have a title syntax like 'Array.prototype.forEach', rather than the 'array.forEach()' syntax that we use to invoke these methods. As we've learned, the forEach method is actually a property of the prototype object on the top level Array object we are inheriting from. Since invoking a method on an array will automatically search for that method up the chain, we can omit the 'Array.prototype' whenever accessing an array method. 
 
 <br>
 
-So, what about the primitive values? We learned earlier that these are not objects, so how come we can still call methods on numbers, for instance?
+So, what about the primitive values? We learned earlier that these are not objects, so why can we still call methods on strings, for instance?
 
-Under the hood, the JavaScript engine converts any primitive value to the equivalent type object, which is why strings, despite not being objects, can inherit string methods like `.split()`, `length`, etc. When you create a new `string` and assign it to a variable, that variable will become a string object instance, which has its own prototypes and methods associated with it. 
+Under the hood, the JavaScript engine converts any primitive value to the equivalent type object, which is why strings, despite not being objects, can inherit string methods like `.split()`, `length`, etc. JavaScript essentially treats a string like `'hello'` as a string object instance, which has its own prototypes and methods associated with it. 
 
 Prototyping and inheritance are the mechanisms by which, almost like magic, we are able to access a number of pre-written methods to help us perform typical tasks with the various types of data we encounter in JavaScript!
 
