@@ -23,9 +23,10 @@ tktk What is the takeaway of this module?
 
 ### 🚀 Level Up
 
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
+- [Iterating through properties](./level-up/iterating-through-properties.md)
+- [How variables reference objects](./level-up/object-reference.md)
+- [Property Shorthand Syntax](./level-up/property-shorthand-syntax.md)
+- [Getters and Setters](./level-up/getters-and-setters.md)
 
 ## Internal resources
 
