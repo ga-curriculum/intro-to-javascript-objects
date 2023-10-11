@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create methods. 
+**Learning objective:** By the end of this lesson, students will be able to create methods and understand prototyping and inheritance.
 
 ## What are methods? 
 
