@@ -10,7 +10,7 @@ This module introduces objects in JavaScript.
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md) | tktk min | [tktk Link]() | tktk topics covered |
+| [Setup](./setup/README.md) | tktk min | [tktk Link]() | --- |
 | [Concepts](./concepts/README.md) | tktk min | [tktk Link]() | tktk topics covered |
 | [Fundamentals](./fundamentals/README.md) | tktk min | [tktk Link]() | tktk topics covered |
 | [Manipulation](./manipulation/README.md) | tktk min | [tktk Link]() | tktk topics covered |
