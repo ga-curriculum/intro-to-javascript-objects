@@ -43,7 +43,7 @@ const game = {
 Why? Check out [this commit](https://github.com/DavidStinson/objects-are-a-thing/commit/b1bb58d364975e3dbed12f4c9726720ded2a3cfd) for a look into how this looks to version control software when modified. It’s also just straight up less work later!
 
 
-## Accessing with dot notation
+## Dot notation
 
 The primary way to access, add, or modify an existing object’s properties is __dot notation__. 
 
@@ -63,7 +63,7 @@ game.smallestNum  // 0
 
 ## Using square bracket notation
 
-The other way to access, add, update, and delete properties is by using **square bracket notation**. We use *square bracket notation* instead of *dot notation* when you’re writing code and you don’t know which property needs to be accessed. In other words, we use *square brackets* to access properties *dynamically* during runtime.
+The other way to access, add, update, and delete properties is by using **square bracket notation**. We use *square bracket notation* instead of *dot notation* when we’re writing code where we don’t know which property needs to be accessed. In other words, we use *square brackets* to access properties *dynamically* during runtime.
 
 *Square bracket notation* has the following syntax:
 ```javascript
@@ -226,3 +226,4 @@ function voteTallySquare(arr) {
 If we run our code now, we can see that our output should be `{ yes: 4, no: 6 }`, which is correct!
 
 Look how much less code we had to write to accomplish the same thing! We also solved a few problems we had with our solution that utilized dot notation - this function can take in an array with any number of different values in it, and we don’t even need to know what those values are ahead of time.
+
