@@ -1,18 +1,20 @@
-# [tktk Module Name]
+# Intro to JavaScript Objects
 
 ![Hero image](./assets/tktkhero-main.png)
 
 ## Module overview
 
-tktk What is the takeaway of this module?
+This module introduces objects in JavaScript.
 
 ## Content outline
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | tktk min | [tktk Link]() | tktk topics covered |
+| [Setup](./setup/README.md) | tktk min | [tktk Link]() | --- |
+| [Concepts](./concepts/README.md) | tktk min | [tktk Link]() | Define objects and their purpose. |
+| [Fundamentals](./fundamentals/README.md) | tktk min | [tktk Link]() | Learn the basics of object creation, access, and assignment. |
+| [Manipulation](./manipulation/README.md) | tktk min | [tktk Link]() | Understand the basics of manipulating objects, such as changing and deleting properties. |
+| [Methods](./methods/README.md) | tktk min | [tktk Link]() | Explore methods, prototyping, and inheritance. |
 |  **Total Module**                                        | tktk min | ---           | ---                 |
 
 ## Additional content 
@@ -21,9 +23,10 @@ tktk What is the takeaway of this module?
 
 ### 🚀 Level Up
 
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
+- [Iterating through properties](./level-up/iterating-through-properties.md)
+- [How variables reference objects](./level-up/object-reference.md)
+- [Property Shorthand Syntax](./level-up/property-shorthand-syntax.md)
+- [Getters and Setters](./level-up/getters-and-setters.md)
 
 ## Internal resources
 

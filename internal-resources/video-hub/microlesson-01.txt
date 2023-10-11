@@ -1,4 +1,4 @@
-Lecture title: [tktk Module Name]
+Lecture title: Intro to JavaScript Objects
 Subtitle: microlesson-01
 
 chapter-file-name
