@@ -26,8 +26,11 @@ This module introduces objects in JavaScript.
 
 - [Iterating through properties](./level-up/iterating-through-properties.md)
 - [How variables reference objects](./level-up/object-reference.md)
-- [Property Shorthand Syntax](./level-up/property-shorthand-syntax.md)
+- [Property shorthand syntax](./level-up/property-shorthand-syntax.md)
+- [Square-bracket syntax](./level-up/square-bracket-notation.md)
+- [Prototyping and Inheritance](./level-up/prototyping.md)
 - [Getters and Setters](./level-up/getters-and-setters.md)
+
 
 ## Internal resources
 
