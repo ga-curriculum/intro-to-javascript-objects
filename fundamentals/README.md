@@ -9,34 +9,34 @@
 Let’s create an object by using **Object Literal** notation, also known as an [Object Initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer):
 
 ```javascript
-const game = {}
-console.log(typeof game) // "object"
+const music = {}
+console.log(typeof music) // "object"
 ```
 
-As you can see, Object Literal notation consists of a set of opening and closing curly braces, `{}`. We just used curly braces to create an empty game object.
+As you can see, Object Literal notation consists of a set of opening and closing curly braces, `{}`. We just used curly braces to create an empty `music` object.
 
-Let’s change the code so that `game` has a property:
+Let’s change the code so that `music` has a property:
 
 ```javascript
-const game = { title: 'Guess the Number!' }
-console.log(game)
+const music = { currentTrack: 'Just Ken' }
+console.log(music)
 ```
 
 Properties are separated by commas:
 
 ```javascript
-const game = {
-  title: 'Guess the Number!',
-  biggestNum: 100
+const music = {
+  currentTrack: 'Just Ken',
+  volume: 70
 }
 ```
 
 Syntactically, [trailing commas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas) are permitted and encouraged:
 
 ```javascript
-const game = {
-  title: 'Guess the Number!',
-  biggestNum: 100, // <---
+const music = {
+  currentTrack: 'Just Ken',
+  volume: 70, // <-----
 }
 ```
 
@@ -47,18 +47,23 @@ Why? Check out [this commit](https://github.com/DavidStinson/objects-are-a-thing
 
 The primary way to access, add, or modify an existing object’s properties is __dot notation__. 
 
-Let’s use dot notation to add another property to the game object:
+Let’s use dot notation to add another property to the music object:
 
 ```javascript
-game.smallestNum = 0
+music.currentPlaylist = ['Hey Blondie', 'What Was I Made For', 'Dance The Night']
 ```
 
 We can then access the value using the same dot notation syntax:
 ```javascript
-game.smallestNum  // 0 
+music.currentPlaylist  // ['Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
 ```
 
-> 🧠 When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated.
+When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated:
+```javascript
+music.volume = 65
+```
+
+In this example, `volume` already exists as a property on `music` so this line of code updates the value.
 
 
 ## Using square bracket notation
@@ -74,9 +79,9 @@ The `anyJSExpression` can be anything that evaluates to a single “value” - e
 
 Let’s explore this idea with an example: 
 
-**Prompt:** Given an array of strings (`voteArr`), dynamically create and return an object with two properties.
+Given an array of strings (`voteArr`), let's dynamically create and return an object with two properties.
 
-One property should count how many instances of `'yes'` appear in the array, while another should count how many instances of `'no'` appear in the array.
+One property will count how many instances of `'yes'` appear in the array, while another will count how many instances of `'no'` appear in the array.
 
 So, for example, if the array has the string of `'yes'` appear in it four times and the string `'no'` appear in it six times, the output would be: `{ yes: 4, no: 6 }`.
 

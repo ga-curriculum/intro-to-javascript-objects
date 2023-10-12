@@ -34,6 +34,6 @@ As developers, you’ll be working with objects more than anything else. The fol
 - Data submitted from the browser will be accessed on the server as objects.
 - Data retrieved from a database will be stored in objects.
 
-Even primitive data types like strings and numbers are turned into an object on demand by the JS runtime when we want to call a method like `toUpperCase`! BTW, this process is called *boxing*. So now does it make sense why it’s called **object-oriented programming**?
+In a process called *boxing*, even primitive data types like strings and numbers are turned into an object on demand by the JS runtime when we want to call a method like `toUpperCase`! So, now does it make sense why it’s called **object-oriented programming**?
 
 > 💡 Unlike arrays, the order of properties in objects is not guaranteed. 
