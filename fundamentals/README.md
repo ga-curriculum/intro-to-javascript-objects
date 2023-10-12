@@ -50,7 +50,7 @@ The primary way to access, add, or modify an existing object’s properties is _
 Let’s use dot notation to add another property to the music object:
 
 ```javascript
-music.currentPlaylist = ['Hey Blondie', 'What Was I Made For', 'Dance The Night'];
+music.currentPlaylist = ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'];
 ```
 
 We can then access the value using the same dot notation syntax:
@@ -58,11 +58,6 @@ We can then access the value using the same dot notation syntax:
 music.currentPlaylist  // ['Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
 ```
 
-When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated:
-```javascript
-music.volume = 65
-```
 
-In this example, `volume` already exists as a property on `music` so this line of code updates the value.
 
 
