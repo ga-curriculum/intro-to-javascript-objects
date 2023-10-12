@@ -15,6 +15,7 @@ This module introduces objects in JavaScript.
 | [Fundamentals](./fundamentals/README.md) | tktk min | [tktk Link]() | Learn the basics of object creation, access, and assignment. |
 | [Manipulation](./manipulation/README.md) | tktk min | [tktk Link]() | Understand the basics of manipulating objects, such as changing and deleting properties. |
 | [Methods](./methods/README.md) | tktk min | [tktk Link]() | Explore methods, prototyping, and inheritance. |
+| [Data Structures](./data-structures/README.md) | tktk min | [tktk Link]() | Understand how objects and arrays combine to form common data structures. |
 |  **Total Module**                                        | tktk min | ---           | ---                 |
 
 ## Additional content 

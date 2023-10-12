@@ -4,59 +4,83 @@
 
 **Learning objective:** By the end of this lesson, students will be able to create methods and understand prototyping and inheritance.
 
-## What are methods? 
-
 When a property holds a function, we commonly refer to it as a **method** of the object.
 
 So, simply put, you can think of a method as a function which exists on an object. 
 
-Let’s add a `play` *method* to the `game` object:
+They can be defined when initializing an object:
 
-```jsx
-game.play = function() {
-  this.secretNum = Math.floor(Math.random() * 
-    (this.biggestNum - this.smallestNum + 1)) + this.smallestNum
+```javascript
+const music = {
+  currentTrack: 'Just Ken',
+  currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
+  volume: 70, 
+  // add the following: 
+  mute(){
+    music.volume = 0
+  }
 }
 ```
 
-Try it out in the console by calling `game.play()` and then checking the value of `game.secretNum` a few times. 
+You could also use dot notation assignment to define the same method: 
 
-## this
+```javascript
+music.mute = function(){
+  music.volume = 0
+}
+```
 
-So what’s with the `this`?
+We invoke methods the same way we invoke functions, just remember that the method only exists on the object: 
 
-The `this` keyword represents the “execution context” of a function. In this case, `this` is set by JavaScript to be the object the method is called on. 
+```javascript
+mute()
+// reference error
+```
 
-**IMPORTANT:** Due to how `this` is set within *arrow functions*, it’s best to avoid using them as methods in objects.
-
-## Prototyping and Inheritance
+```javascript
+music.mute() 
+// works! 
+```
 
 At this point, you'll likely have realized that we've already experienced methods up to this point - when we use things like `.push()` or `.slice()`, we're invoking an array __method__. If we call `'some string'.split()`, we're invoking a string __method__. 
 
-If you have been wondering why we use dot notation to call upon these functions, now you know why - they're methods that are built into the [object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes) for each of these types. 
+If you have been wondering why we use dot notation to call upon these functions, now you know why! 
 
-To understand how we're able to access these methods, it's important to understand that, in JavaScript, anything which is not a primitive value (string, number, bigint, boolean, undefined, symbol, or null) is an object. 
+## Adding a next() method
 
-**Prototypes** are how JavaScript objects inherit features from one another. Every object in JavaScript has a built-in property called its prototype, and this prototype itself is an object so it has its own prototype as well (it's prototypes all the way down!)
+Let’s add a `next` *method* to the `music` object, so we can move to the next track in our `currentPlaylist`. 
 
-This creates a chain of prototypes. Whenever you access a method on an object (for example, an array), the JavaScript engine searches up this chain to try and find the method. This is how a new array you just created: 
+One problem - how do we do that? The way our object is currently set up, we have a `currentTrack` property, and a `currentPlaylist` property, but no way to easily determine our current position. 
+
+Let's make one adjustment. It doesn't make much sense to keep track of `currentTrack` as a string, when the entire playlist we're working with already keeps track of our song names in an array.
+
+Remember, we can access a specific item in an array using its index, so let's add a property called `position` that represents the current tracks index: 
 
 ```javascript
-const myArray = [1, 2, 3, 4, 5]
-
-myArray.join(' - ') // returns: 1 - 2 - 3 - 4 - 5
+const music = {
+  position: 0,
+  currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
+  volume: 70, 
+}
 ```
-can still make use of an array method like `.join()`. It is inheriting these methods from the `Array.prototype` object. 
 
-> 🧠 You may have noticed that methods on MDN always have a title syntax like 'Array.prototype.forEach', rather than the 'array.forEach()' syntax that we use to invoke these methods. As we've learned, the forEach method is actually a property of the prototype object on the top level Array object we are inheriting from. Since invoking a method on an array will automatically search for that method up the chain, we can omit the 'Array.prototype' whenever accessing an array method. 
+Now we can dynamically access the current track by accessing the `position` of the `currentPlaylist`: 
 
-<br>
+```javascript
+console.log(music.currentPlaylist[music.position]) // 'Just Ken'
+```
 
-So, what about the primitive values? We learned earlier that these are not objects, so why can we still call methods on strings, for instance?
+Now, for our `next()` method, we can simply increment the `position` by `1`! 
 
-Under the hood, the JavaScript engine converts any primitive value to the equivalent type object, which is why strings, despite not being objects, can inherit string methods like `.split()`, `length`, etc. JavaScript essentially treats a string like `'hello'` as a string object instance, which has its own prototypes and methods associated with it. 
+```javascript
+music.next = () => {
+  music.position += 1
+}
+```
 
-Prototyping and inheritance are the mechanisms by which, almost like magic, we are able to access a number of pre-written methods to help us perform typical tasks with the various types of data we encounter in JavaScript!
+```javascript
+// invoke the method
+music.next()
 
-
-
+console.log(music.currentPlaylist[music.position]) // 'Hey Blondie'
+```

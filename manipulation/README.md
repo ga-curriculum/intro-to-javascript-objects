@@ -6,39 +6,41 @@
 
 ## Changing an object's properties
 
-To change an object's properties, you can reassign a new value to an existing key: 
+To change an object's properties, you can reassign a new value to an existing key. When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated:
+
 
 ```javascript
-const tastyIceCreamFlavors = {
-  vanilla: true,
-  chocolate: true,
-  mintChip: true,
+const music = {
+  currentTrack: 'Just Ken',
+  currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
+  volume: 70, 
 }
 
-// If someone comes along who doesn't like mint chip ice cream: 
-tastyIceCreamFlavors.mintChip = false
+// Let's lower the volume: 
+music.volume = 60;
 
-console.log(tastyIceCreamFlavors) 
-// { vanilla: true, chocolate: true, mintChip: false }
+console.log(music.volume) // 60
 ```
+
+In this example, `volume` already exists as a property on `music` so this line of code updates the value.
 
 ## Deleting an object's properties
 
 To completely remove a property from an object, we use the delete operator:
 
 ```javascript
-const tastyIceCreamFlavors = {
-  vanilla: true,
-  chocolate: true,
-  salmon: false
+const music = {
+  currentTrack: 'Just Ken',
+  currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
+  volume: 70, 
 }
 
-// Let's remove salmon entirely: 
-delete tastyIceCreamFlavors.salmon
+// Let's remove our current playlist: 
+delete music.currentPlaylist
 
 
-console.log(tastyIceCreamFlavors)
-// { vanilla: true, chocolate: true }
+console.log(music)
+// { currentTrack: 'Just Ken', volume: 70 }
 ```
 
 
