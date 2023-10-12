@@ -10,12 +10,13 @@ This release modularizes the legacy Intro to JavaScript Objects lecture and prov
 
 **Additions**
 
-
+Microlesson on arrays of objects, continuing from examples in fundamentals and manipulation. 
 
 **Changes**
 
-
+Changes `game` object to a `music` object. 
+Moves Prototyping and Square bracket notation lessons to levelup
 
 **Removals**
 
-
+Rm's mention of `this`
