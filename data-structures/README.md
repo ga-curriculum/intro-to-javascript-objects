@@ -8,11 +8,11 @@ As a reference, here is our `music` object:
 
 ```javascript
 const music = {
-  position: 0,
+  trackIdx: 0,
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70,
-  next(){
-    music.position += 1
+  next: () => {
+    music.trackIdx += 1
   },
 };
 ```
@@ -33,7 +33,7 @@ In a real world application, each song would likely have more associated data - 
   artist: 'Ryan Gosling',
   album: 'Barbie The Album',
   length: '3:43',
-}
+};
 ```
 
 If we adopted that structure for each song, then our `currentPlaylist` array would resemble something like this, an array of objects: 
@@ -60,21 +60,21 @@ music.currentPlaylist = [
     album: 'Barbie The Album',
     length: '2:56',
   }
-]
+];
 ```
 
 We can still access each element the same way as before, but now they are objects rather than strings: 
 
 ```javascript
-console.log(music.currentPlaylist[music.position])
+console.log(music.currentPlaylist[music.trackIdx]);
 // { title: 'Just Ken', artist: 'Ryan Gosling', album: 'Barbie The Album',length: '3:43' }
 ```
 
 That means we can now use dot notation to return specific properties on that element! 
 
 ```javascript
-console.log(music.currentPlaylist[music.position].title) // 'Just Ken'
-console.log(music.currentPlaylist[music.position].artist) // 'Ryan Gosling'
+console.log(music.currentPlaylist[music.trackIdx].title); // 'Just Ken'
+console.log(music.currentPlaylist[music.trackIdx].artist); // 'Ryan Gosling'
 ```
 
 

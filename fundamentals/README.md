@@ -55,7 +55,7 @@ music.currentPlaylist = ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Danc
 
 We can then access the value using the same dot notation syntax:
 ```javascript
-music.currentPlaylist  // ['Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
+music.currentPlaylist  // ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
 ```
 
 
