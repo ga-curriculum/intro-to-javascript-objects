@@ -4,8 +4,6 @@
 
 **Learning objective:** By the end of this lesson, students will be able to create methods and understand prototyping and inheritance.
 
-## What are methods? 
-
 When a property holds a function, we commonly refer to it as a **method** of the object.
 
 So, simply put, you can think of a method as a function which exists on an object. 
@@ -86,70 +84,3 @@ music.next()
 
 console.log(music.currentPlaylist[music.position]) // 'Hey Blondie'
 ```
-
-## Objects and arrays
-
-As you've seen, objects excel at grouping related data, and arrays are great for storing multiple ordered items. As a result, data is often structured using a combination of both! 
-
-Let's examine our current `music.currentPlaylist`: 
-
-```javascript
-['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night']
-```
-
-It would be nice if each song had more associated data - the artist, album, song length, etc. This is a great use case for an object, something like: 
-
-```javascript
-{ 
-  title: 'Just Ken',
-  artist: 'Ryan Gosling',
-  album: 'Barbie The Album',
-  length: '3:43',
-}
-```
-
-If we adopted that structure for each song our `currentPlaylist` array would resemble something like this, an array of objects: 
-```javascript
-music.currentPlaylist = [
-  {
-    title: 'Just Ken',
-    artist: 'Ryan Gosling',
-    album: 'Barbie The Album',
-    length: '3:43',
-  }, {
-    title: 'Hey Blondie',
-    artist: 'Dominic Fike',
-    album: 'Barbie The Album',
-    length: '2:21',
-  }, {
-    title: 'What Was I Made For',
-    artist: 'Billie Eilish',
-    album: 'Barbie The Album',
-    length: '3:42',
-  }, {
-    title: 'Dance The Night',
-    artist: 'Dua Lipa',
-    album: 'Barbie The Album',
-    length: '2:56',
-  }
-]
-```
-
-We can still access each element the same way as before, but now they are objects rather than strings: 
-
-```javascript
-console.log(music.currentPlaylist[music.position])
-// { title: 'Just Ken', artist: 'Ryan Gosling', album: 'Barbie The Album',length: '3:43' }
-```
-
-That means we can use dot notation to return specific properties on that element! 
-
-```javascript
-console.log(music.currentPlaylist[music.position].title) // 'Just Ken'
-console.log(music.currentPlaylist[music.position].artist) // 'Ryan Gosling'
-```
-
-
-
-
-
