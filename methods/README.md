@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Methods
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Methods](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create methods and understand prototyping and inheritance.
 
@@ -46,7 +44,7 @@ At this point, you'll likely have realized that we've already experienced method
 
 If you have been wondering why we use dot notation to call upon these functions, now you know why! 
 
-## Adding a next() method
+## Adding a `next()` method
 
 Let’s add a `next` *method* to the `music` object, so we can move to the next track in our `currentPlaylist`. 
 
@@ -84,5 +82,3 @@ music.next();
 
 console.log(music.currentPlaylist[music.trackIdx]); // 'Hey Blondie'
 ```
-
-

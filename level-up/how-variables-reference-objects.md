@@ -1,10 +1,8 @@
-# Intro to JavaScript Objects - Level Up - How Variables Reference Objects
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Level Up - How Variables Reference Objects](./assets/hero.png)
 
 As you know, variables are slots in memory that hold a value. All non-object data types are known as primitive or value types because they hold a single value. Picture a table in memory like this:
 
-```
+```markdown
 SCOPE TABLE            var | value/ref
                       -----------------
 let x = 25        -->   x  |  25
@@ -16,7 +14,7 @@ But objects are complex/reference types because they can hold multiple pieces of
 
 Objects, including Arrays, Functions, etc., are stored in a separate part of memory known as the *heap*. A variable for an object has as its value a “reference” (think pointer):
 
-```
+```markdown
 SCOPE TABLE             var | value/ref
                        -----------------
 let x = 25         -->   x  |  25

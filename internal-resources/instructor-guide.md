@@ -1,7 +1,4 @@
-# Intro to JavaScript Objects - Instructor Guide
-
-![Hero image](../assets/tktkhero-secondary.png)
-
+# ![Intro to JavaScript Objects - Instructor Guide](../assets/instructor-guide.png)
 
 ---
 

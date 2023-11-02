@@ -1,7 +1,4 @@
-# Intro to JavaScript Objects - Level Up - Square Bracket Notation
-
-![Hero image](./assets/hero.png)
-
+# ![Intro to JavaScript Objects - Level Up - Square Bracket Notation](./assets/hero.png)
 
 We've covered dot notation as the primary way to engage with object properties. The other way to access, add, update, and delete properties is by using **square bracket notation**. We use *square bracket notation* instead of *dot notation* when we’re writing code where we don’t know which property needs to be accessed. In other words, we use *square brackets* to access properties *dynamically* during runtime.
 
@@ -166,4 +163,3 @@ function voteTallySquare(arr) {
 If we run our code now, we can see that our output should be `{ yes: 4, no: 6 }`, which is correct!
 
 Look how much less code we had to write to accomplish the same thing! We also solved a few problems we had with our solution that utilized dot notation - this function can take in an array with any number of different values in it, and we don’t even need to know what those values are ahead of time.
-

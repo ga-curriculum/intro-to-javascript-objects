@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Data Structures
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Data Structures](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to understand how objects and arrays combine to form common data structures.
 
@@ -76,7 +74,3 @@ That means we can now use dot notation to return specific properties on that ele
 console.log(music.currentPlaylist[music.trackIdx].title); // 'Just Ken'
 console.log(music.currentPlaylist[music.trackIdx].artist); // 'Ryan Gosling'
 ```
-
-
-
-

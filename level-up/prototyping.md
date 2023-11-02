@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Level Up - Prototyping and Inheritance
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Level Up - Prototyping and Inheritance](./assets/hero.png)
 
  Thus far, we've made use of a wide range of string and array methods in our code. These are methods that are built into the [object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes) for each of these types. 
 

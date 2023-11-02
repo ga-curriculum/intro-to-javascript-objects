@@ -1,13 +1,10 @@
-# Intro to JavaScript Objects - Manipulation
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Manipulation](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the basics of manipulating objects, such as changing and deleting properties.
 
 ## Changing an object's properties
 
 To change an object's properties, you can reassign a new value to an existing key. When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated:
-
 
 ```javascript
 const music = {
@@ -38,11 +35,6 @@ const music = {
 // Let's remove our current playlist: 
 delete music.currentPlaylist
 
-
 console.log(music)
 // { currentTrack: 'Just Ken', volume: 70 }
 ```
-
-
-
-

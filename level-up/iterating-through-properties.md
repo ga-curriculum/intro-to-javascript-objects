@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Level Up - Iterating Through Properties
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Level Up - Iterating Through Properties](./assets/hero.png)
 
 We often need to iterate over an object’s properties. We can iterate over the keys of the properties using a `for...in` loop:
 
@@ -27,4 +25,3 @@ Object.values(game).forEach(function(val) {
 ```
 
 > 🧠 The ECMAScript specification does not dictate how properties should be ordered; however, all browsers currently iterate over them in the order they are defined/added. This means that unlike arrays, the order of properties in objects is not guaranteed. 
-
