@@ -1,12 +1,10 @@
-# Intro to JavaScript Objects
-
-![Hero image](./assets/tktkhero-main.png)
+# ![Intro to JavaScript Objects](./assets/tktkhero-main.png)
 
 ## Module overview
 
 This module introduces objects in JavaScript.
 
-## Content outline
+## Content
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
@@ -18,19 +16,21 @@ This module introduces objects in JavaScript.
 | [Data Structures](./data-structures/README.md) | tktk min | [tktk Link]() | Understand how objects and arrays combine to form common data structures. |
 |  **Total Module**                                        | tktk min | ---           | ---                 |
 
-## Additional content 
+
+### 🚀 Level Up content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [Iterating through properties](./level-up/iterating-through-properties.md)| -- | -- | Learn how to iteration can be applied to objects. |
+| [How variables reference objects](./level-up/how-variables-reference-objects.md)| -- | -- | Understand how variables reference objects in memory. |
+| [Property shorthand syntax](./level-up/property-shorthand-syntax.md)| -- | -- | Learn the basics of property shorthand syntax when working with objects. |
+| [Square-bracket syntax](./level-up/square-bracket-notation.md)| -- | -- | Learn the basics of square bracket notation when working with objects. |
+| [Prototyping and Inheritance](./level-up/prototyping.md)| -- | -- | Understand the basics of prototyping and inheritance |
+| [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Understand the basics of getters and setters |
+
+## References
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [Iterating through properties](./level-up/iterating-through-properties.md)
-- [How variables reference objects](./level-up/object-reference.md)
-- [Property shorthand syntax](./level-up/property-shorthand-syntax.md)
-- [Square-bracket syntax](./level-up/square-bracket-notation.md)
-- [Prototyping and Inheritance](./level-up/prototyping.md)
-- [Getters and Setters](./level-up/getters-and-setters.md)
-
 
 ## Internal resources
 
