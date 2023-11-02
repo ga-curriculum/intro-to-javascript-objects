@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Concepts
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to define objects and their purpose.
 
@@ -15,7 +13,7 @@ Very simply, **objects** are a collection of zero or more **properties**.
 So what’s a *property*? A *property* consists of a **`key: value`** pair, where the: 
 
 - **key** is a *string* or *symbol* (other types will be coerced into strings), and the
-- **value** is any JS expression (code that evaluates to a single value or thing), including other objects (yes, functions too - called **methods** when they are on an object).
+- **value** is any JavaScript expression (code that evaluates to a single value or thing), including other objects (yes, functions too - called **methods** when they are on an object).
 
 <img src="./assets/object-1.png" alt="object syntax" width="100%">
 
@@ -29,11 +27,11 @@ In computer science, collections of key/value pairs are commonly referred to as 
 
 As developers, you’ll be working with objects more than anything else. The following is just a small example of what is modeled using objects:
 
-- The browser window and the elements it visualizes are all represented in memory as JS objects.
-- Every part of those elements, including their styling, is accessed via JS objects.
+- The browser window and the elements it visualizes are all represented in memory as JavaScript objects.
+- Every part of those elements, including their styling, is accessed via JavaScript objects.
 - Data submitted from the browser will be accessed on the server as objects.
 - Data retrieved from a database will be stored in objects.
 
-In a process called *boxing*, even primitive data types like strings and numbers are turned into an object on demand by the JS runtime when we want to call a method like `toUpperCase`! So, now does it make sense why it’s called **object-oriented programming**?
+In a process called *boxing*, even primitive data types like strings and numbers are turned into an object on demand by the JavaScript runtime when we want to call a method like `toUpperCase`! So, now does it make sense why it’s called **object-oriented programming**?
 
 > 💡 Unlike arrays, the order of properties in objects is not guaranteed. 
