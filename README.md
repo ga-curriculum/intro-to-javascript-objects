@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects](./assets/tktkhero-main.png)
+# ![Intro to JavaScript Objects](./assets/hero.png)
 
 ## Module overview
 

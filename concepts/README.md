@@ -15,7 +15,7 @@ So what’s a *property*? A *property* consists of a **`key: value`** pair, wher
 - **key** is a *string* or *symbol* (other types will be coerced into strings), and the
 - **value** is any JavaScript expression (code that evaluates to a single value or thing), including other objects (yes, functions too - called **methods** when they are on an object).
 
-<img src="./assets/object-1.png" alt="object syntax" width="100%">
+<img src="./assets/anatomy-of-an-object.png" alt="object syntax" width="100%">
 
 In computer science, collections of key/value pairs are commonly referred to as dictionaries - a good visualization of what an object is.
 

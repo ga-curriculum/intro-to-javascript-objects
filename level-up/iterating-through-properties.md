@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects - Level Up - Iterating Through Properties](./assets/hero.png)
+# ![Intro to JavaScript Objects - Level Up - Iterating Through Properties](./assets/hero-iterating-through-properties.png)
 
 We often need to iterate over an object’s properties. We can iterate over the keys of the properties using a `for...in` loop:
 
