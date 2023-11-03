@@ -8,13 +8,13 @@ This module introduces objects in JavaScript.
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md) | tktk min | [tktk Link]() | --- |
-| [Concepts](./concepts/README.md) | tktk min | [tktk Link]() | Define objects and their purpose. |
-| [Fundamentals](./fundamentals/README.md) | tktk min | [tktk Link]() | Learn the basics of object creation, access, and assignment. |
-| [Manipulation](./manipulation/README.md) | tktk min | [tktk Link]() | Understand the basics of manipulating objects, such as changing and deleting properties. |
-| [Methods](./methods/README.md) | tktk min | [tktk Link]() | Explore methods, prototyping, and inheritance. |
-| [Data Structures](./data-structures/README.md) | tktk min | [tktk Link]() | Understand how objects and arrays combine to form common data structures. |
-|  **Total Module**                                        | tktk min | ---           | ---                 |
+| [Setup](./setup/README.md) | -- | -- | --- |
+| [Concepts](./concepts/README.md) | -- | -- | Define objects and their purpose. |
+| [Fundamentals](./fundamentals/README.md) | -- | -- | Learn the basics of object creation, access, and assignment. |
+| [Manipulation](./manipulation/README.md) | -- | -- | Understand the basics of manipulating objects, such as changing and deleting properties. |
+| [Methods](./methods/README.md) | -- | -- | Explore methods, prototyping, and inheritance. |
+| [Data Structures](./data-structures/README.md) | -- | -- | Understand how objects and arrays combine to form common data structures. |
+| **Total content** | -- | -- | |
 
 
 ### 🚀 Level Up content
@@ -27,6 +27,7 @@ This module introduces objects in JavaScript.
 | [Square-bracket syntax](./level-up/square-bracket-notation.md)| -- | -- | Learn the basics of square bracket notation when working with objects. |
 | [Prototyping and Inheritance](./level-up/prototyping.md)| -- | -- | Understand the basics of prototyping and inheritance |
 | [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Understand the basics of getters and setters |
+| **Total Level Up content** | -- | -- | |
 
 ## References
 
