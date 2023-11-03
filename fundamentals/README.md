@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Fundamentals
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Fundamentals](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to learn the basics of object creation, access, and assignment.
 
@@ -10,7 +8,7 @@ Let’s create an object by using **Object Literal** notation, also known as an 
 
 ```javascript
 const music = {};
-console.log(typeof music); // "object"
+console.log(typeof music); // 'object'
 ```
 
 As you can see, Object Literal notation consists of a set of opening and closing curly braces, `{}`. We just used curly braces to create an empty `music` object.
@@ -40,8 +38,7 @@ const music = {
 };
 ```
 
-Why? Check out [this commit](https://github.com/DavidStinson/objects-are-a-thing/commit/b1bb58d364975e3dbed12f4c9726720ded2a3cfd) for a look into how this looks to version control software when modified. It’s also just straight up less work later!
-
+Why? Check out [this commit](https://github.com/DavidStinson/objects-are-a-thing/commit/b1bb58d364975e3dbed12f4c9726720ded2a3cfd) for a look into how this looks to version control software when modified. It’s also just less work later!
 
 ## Dot notation
 
@@ -57,7 +54,3 @@ We can then access the value using the same dot notation syntax:
 ```javascript
 music.currentPlaylist  // ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
 ```
-
-
-
-

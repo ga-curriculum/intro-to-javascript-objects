@@ -1,10 +1,8 @@
-# Intro to JavaScript Objects - Data Structures
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Data Structures](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to understand how objects and arrays combine to form common data structures.
 
-As a reference, here is our `music` object: 
+For reference, here is our `music` object: 
 
 ```javascript
 const music = {
@@ -17,7 +15,7 @@ const music = {
 };
 ```
 
-As you've seen, objects excel at grouping related data, and arrays are great for storing multiple ordered items. As a result, data is often structured using a combination of both! 
+Objects excel at grouping related data, and arrays are great for storing multiple ordered items. As a result, data is often structured using a combination of both! 
 
 Let's examine our current `music.currentPlaylist`: 
 
@@ -76,7 +74,3 @@ That means we can now use dot notation to return specific properties on that ele
 console.log(music.currentPlaylist[music.trackIdx].title); // 'Just Ken'
 console.log(music.currentPlaylist[music.trackIdx].artist); // 'Ryan Gosling'
 ```
-
-
-
-

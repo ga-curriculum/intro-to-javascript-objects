@@ -1,6 +1,4 @@
-# Intro to JavaScript Objects - Level Up - Property Shorthand Syntax
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Objects - Level Up - Property Shorthand Syntax](./assets/hero-property-shorthand-syntax.png)
 
 It’s a common scenario to want to pass the values of variables as properties (having the same name as the variable) in an object:
 
@@ -11,7 +9,7 @@ const longitude = getLng('Disneyland')
 const location = {
   name: 'Disneyland',
   latitude: latitude,
-  longitude: longitude
+  longitude: longitude,
 }
 ```
 
@@ -24,7 +22,7 @@ const longitude = getLng('Disneyland')
 const location = {
   name: 'Disneyland',
   latitude,
-  longitude
+  longitude,
 }
 ```
 
