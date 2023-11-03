@@ -9,7 +9,7 @@ const longitude = getLng('Disneyland')
 const location = {
   name: 'Disneyland',
   latitude: latitude,
-  longitude: longitude
+  longitude: longitude,
 }
 ```
 
