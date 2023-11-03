@@ -10,14 +10,14 @@ Objects are the most common data structure in object-oriented programming.
 
 Very simply, **objects** are a collection of zero or more **properties**.
 
-So what’s a *property*? A *property* consists of a **`key: value`** pair, where the: 
+So what’s a *property*? A *property* consists of a **`key: value`** pair.
 
-- **key** is a *string* or *symbol* (other types will be coerced into strings), and the
-- **value** is any JavaScript expression (code that evaluates to a single value or thing), including other objects (yes, functions too - called **methods** when they are on an object).
+- The ***key*** acts as an identifier and must be a *string* or *symbol*. If any other type is used as a *key*, it will be coerced into a *string*.
+- The ***value*** is a JavaScript expression that evaluates to a single value or thing. This encompasses simple data types like strings, numbers, or booleans. A *value* can also be an object or a function. When a function is bound to an object, it is called a *method*.
 
 <img src="./assets/anatomy-of-an-object.png" alt="object syntax" width="100%">
 
-In computer science, collections of key/value pairs are commonly referred to as dictionaries - a good visualization of what an object is.
+In computer science, collections of key/value pairs are commonly referred to as *dictionaries* - a good visualization of what an object is.
 
 > 📚 Objects are structured data types that hold related data (properties) and behavior (methods) within a single collection. 
 
