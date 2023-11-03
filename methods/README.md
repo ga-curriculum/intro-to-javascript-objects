@@ -4,7 +4,7 @@
 
 When a property holds a function, we commonly refer to it as a **method** of the object.
 
-So, simply put, you can think of a method as a function which exists on an object. 
+So, simply put, you can think of a method as a function that exists on an object. 
 
 They can be defined when initializing an object:
 
