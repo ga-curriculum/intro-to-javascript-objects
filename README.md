@@ -25,7 +25,7 @@ This module introduces objects in JavaScript.
 | [How variables reference objects](./level-up/how-variables-reference-objects.md)| -- | -- | Understand how variables reference objects in memory. |
 | [Property shorthand syntax](./level-up/property-shorthand-syntax.md)| -- | -- | Learn the basics of property shorthand syntax when working with objects. |
 | [Square-bracket syntax](./level-up/square-bracket-notation.md)| -- | -- | Learn the basics of square bracket notation when working with objects. |
-| [Prototyping and Inheritance](./level-up/prototyping.md)| -- | -- | Understand the basics of prototyping and inheritance |
+| [Prototyping and Inheritance](./level-up/prototyping-and-inheritance.md)| -- | -- | Understand the basics of prototyping and inheritance |
 | [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Understand the basics of getters and setters |
 | **Total Level Up content** | -- | -- | |
 
