@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects - Level Up - How Variables Reference Objects](./how-variables-reference-objects.md)
+# ![Intro to JavaScript Objects - Level Up - How Variables Reference Objects](./assets/hero-how-variables-reference-objects.png)
 
 As you know, variables are slots in memory that hold a value. All non-object data types are known as primitive or value types because they hold a single value. Picture a table in memory like this:
 
