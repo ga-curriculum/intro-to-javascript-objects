@@ -1,4 +1,4 @@
-# ![Intro to JavaScript Objects - Instructor Guide](./instructor-guide.md)
+# ![Intro to JavaScript Objects - Instructor Guide](./assets/instructor-guide.png)
 
 ---
 
