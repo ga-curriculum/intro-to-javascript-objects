@@ -1,6 +1,6 @@
 # ![Intro to JavaScript Objects - Level Up - Prototyping and Inheritance](./assets/hero-prototyping-and-inheritance.png)
 
- Thus far, we've made use of a wide range of string and array methods in our code. These are methods that are built into the [object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes) for each of these types. 
+Thus far, we've made use of a wide range of string and array methods in our code. These are methods that are built into the [object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes) for each of these types. 
 
 To understand how we're able to access these methods, it's important to understand that, in JavaScript, anything which is not a primitive value (string, number, bigint, boolean, undefined, symbol, or null) is an object. 
 
