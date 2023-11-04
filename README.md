@@ -1,12 +1,12 @@
 # ![Intro to JavaScript Objects](./assets/hero.png)
 
-## Module overview
+## About
 
 This module introduces objects in JavaScript.
 
 ## Content
 
-| Lesson | Video Time | Video | Topics Covered |
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| -------------- |
 | [Setup](./setup/README.md) | -- | -- | --- |
 | [Concepts](./concepts/README.md) | -- | -- | Define objects and their purpose. |
@@ -17,7 +17,7 @@ This module introduces objects in JavaScript.
 | **Total content** | -- | -- | |
 
 
-### 🚀 Level Up content
+## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
