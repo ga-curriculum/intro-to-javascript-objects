@@ -1,10 +1,10 @@
 # ![Intro to JavaScript Objects - Manipulation](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand the basics of manipulating objects, such as changing and deleting properties.
+**Learning objective:** By the end of this lesson, students will be able to manipulate objects, by changing and deleting properties.
 
 ## Changing an object's properties
 
-To change an object's properties, you can reassign a new value to an existing key. When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated:
+To update a property in a JavaScript object, you assign a new value to one of its keys (which is like a label or name for that property):
 
 ```javascript
 const music = {
@@ -19,7 +19,8 @@ music.volume = 60;
 console.log(music.volume) // 60
 ```
 
-In this example, `volume` already exists as a property on `music` so this line of code updates the value.
+When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated. In this example, `volume` already exists as a property on `music` so this line of code update the value.
+
 
 ## Deleting an object's properties
 
@@ -38,3 +39,15 @@ delete music.currentPlaylist
 console.log(music)
 // { currentTrack: 'Just Ken', volume: 70 }
 ```
+
+## 🎓 You Do 
+
+Let's add and remove a new playlist:
+
+- Create a new playlist array called `myPlaylist` on your music object. Make sure to include a couple of your favorite songs in there. 
+
+- Practice printing `myPlaylist` to the console. 
+
+- Delete `myPlaylist` using the `delete` keyword. 
+
+- Print the `music` object to the console to verify `myPlaylist` has been deleted. 

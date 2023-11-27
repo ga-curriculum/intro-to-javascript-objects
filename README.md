@@ -4,16 +4,22 @@
 
 This module introduces objects in JavaScript.
 
+## Prerequisites
+
+- Intro to JavaScript
+- JavaScript Control Flow
+- Intro to JavaScript Functions
+
 ## Content
 
 | Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md) | -- | -- | --- |
-| [Concepts](./concepts/README.md) | -- | -- | Define objects and their purpose. |
-| [Fundamentals](./fundamentals/README.md) | -- | -- | Learn the basics of object creation, access, and assignment. |
-| [Manipulation](./manipulation/README.md) | -- | -- | Understand the basics of manipulating objects, such as changing and deleting properties. |
-| [Methods](./methods/README.md) | -- | -- | Explore methods, prototyping, and inheritance. |
-| [Data Structures](./data-structures/README.md) | -- | -- | Understand how objects and arrays combine to form common data structures. |
+| ------ |:----------:|:-----:| ------ |
+| [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
+| [Concepts](./concepts/README.md) | -- | -- | Defining object purpose and syntax |
+| [Fundamentals](./fundamentals/README.md) | -- | -- | Object creation, access, and assignment |
+| [Manipulation](./manipulation/README.md) | -- | -- | Changing and deleting properties in objects |
+| [Methods](./methods/README.md) | -- | -- | Creating and calling methods on objects |
+| [Data Structures](./data-structures/README.md) | -- | -- | Combining objects and arrays to form common data structures |
 | **Total content** | -- | -- | |
 
 

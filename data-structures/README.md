@@ -1,21 +1,33 @@
 # ![Intro to JavaScript Objects - Data Structures](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to understand how objects and arrays combine to form common data structures.
+**Learning objective:** By the end of this lesson, students will understand how objects and arrays combine to form common data structures in JavaScript.
 
-For reference, here is our `music` object: 
+For reference, here is our current `music` object: 
 
 ```javascript
 const music = {
+  currentTrack: music.currentPlaylist[music.trackIdx],
   trackIdx: 0,
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70,
-  next: () => {
-    music.trackIdx += 1
+  mute: () => {
+    music.volume = 0
   },
-};
+  next: () => {
+  music.trackIdx += 1
+},
+}
 ```
 
-Objects excel at grouping related data, and arrays are great for storing multiple ordered items. As a result, data is often structured using a combination of both! 
+## Using objects and arrays together
+
+Objects and arrays each have their specialty as a type of data storage: 
+
+**Objects for Grouping Data**: Objects, like our `music` object, are great for grouping *related* data. They store data in key-value pairs.
+
+**Arrays for Ordered Data**: Arrays are used to store multiple items in an *ordered* manner. Our `currentPlaylist` is an array inside the music object. 
+
+As a result, data is often structured using a combination of both! 
 
 Let's examine our current `music.currentPlaylist`: 
 
@@ -35,6 +47,7 @@ In a real world application, each song would likely have more associated data - 
 ```
 
 If we adopted that structure for each song, then our `currentPlaylist` array would resemble something like this, an array of objects: 
+
 ```javascript
 music.currentPlaylist = [
   {
@@ -65,6 +78,7 @@ We can still access each element the same way as before, but now they are object
 
 ```javascript
 console.log(music.currentPlaylist[music.trackIdx]);
+
 // { title: 'Just Ken', artist: 'Ryan Gosling', album: 'Barbie The Album',length: '3:43' }
 ```
 
@@ -74,3 +88,21 @@ That means we can now use dot notation to return specific properties on that ele
 console.log(music.currentPlaylist[music.trackIdx].title); // 'Just Ken'
 console.log(music.currentPlaylist[music.trackIdx].artist); // 'Ryan Gosling'
 ```
+
+## 🎓 You Do 
+
+Using dot notation, practice updating a value from one of the objects in the new `currentPlaylist` array. 
+
+Can you change the track length for the song `'What was I Made For'`?
+
+```JS
+{
+  title: 'What Was I Made For',
+  artist: 'Billie Eilish',
+  album: 'Barbie The Album',
+  length: '3:42', // <----  lets update this to 3:54
+}
+```
+
+> Think about the structure of the data as you attempt to access each level:
+>>  `music object > playlist array > song object`

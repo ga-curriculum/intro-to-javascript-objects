@@ -1,6 +1,6 @@
 # ![Intro to JavaScript Objects - Fundamentals](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to learn the basics of object creation, access, and assignment.
+**Learning objective:** By the end of this lesson, students will be able to apply the basics of object creation, access, and assignment.
 
 ## Object literal notation
 
@@ -52,5 +52,11 @@ music.currentPlaylist = ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Danc
 
 We can then access the value using the same dot notation syntax:
 ```javascript
-music.currentPlaylist  // ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
+consolemusic.currentPlaylist  // ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'] 
 ```
+
+## 🎓 You Do 
+
+Using dot notation: 
+
+- Whats playing? Can you print the property `currentTrack` to the console? 

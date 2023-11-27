@@ -1,10 +1,10 @@
 # ![Intro to JavaScript Objects - Methods](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create methods and understand prototyping and inheritance.
+**Learning objective:** By the end of this lesson, students will be able to create and call methods from objects.
 
-When a property holds a function, we commonly refer to it as a **method** of the object.
+In JavaScript, a *method* is a function that is a property of an object. When a property holds a function, we commonly refer to it as a method *of* the object.
 
-So, simply put, you can think of a method as a function that exists on an object. 
+Methods are used to define actions or behaviors for an object. They provide a way to interact with the object or to get information about the object. 
 
 They can be defined when initializing an object:
 
@@ -20,7 +20,7 @@ const music = {
 }
 ```
 
-You could also use dot notation assignment to define the same method: 
+You could also use dot notation assignment to define the same method if an object already exists: 
 
 ```javascript
 music.mute = () => {
@@ -28,47 +28,51 @@ music.mute = () => {
 }
 ```
 
-We invoke methods the same way we invoke functions, just remember that the method only exists on the object: 
-
-```javascript
-mute();
-// reference error
-```
+In JavaScript, calling (or invoking) a method is similar to calling a function, but with an important difference: a method is called on an object and it only exists within that object's context.
 
 ```javascript
 music.mute();
 // works! 
 ```
 
-At this point, you'll likely have realized that we've already experienced methods up to this point - when we use things like `.push()` or `.slice()`, we're invoking an array __method__. If we call `'some string'.split()`, we're invoking a string __method__. 
+When a function is part of an object (a method), you need to specify the object it belongs to.
 
-If you have been wondering why we use dot notation to call upon these functions, now you know why! 
+```javascript
+mute();
+// reference error
+```
 
-## Adding a `next()` method
+If you try to call a method without referencing its parent object, JavaScript will not know where to find it, leading to a reference error.
 
-Let’s add a `next` *method* to the `music` object, so we can move to the next track in our `currentPlaylist`. 
+> 💡 At this point, you've likely already used methods with arrays and strings in JavaScript - when we use things like `.push()` or `.slice()`, we're invoking an array __method__. If we call `'my-string'.split()`, we're invoking a string __method__.  These are built-in methods that provide specific functionalities to array and string objects in JavaScript
 
-One problem - how do we do that? The way our object is currently set up, we have a `currentTrack` property, and a `currentPlaylist` property, but no way to easily determine our current position in the playlist. 
+If you have been wondering why we use dot notation when we use these methods, now you know! 
 
-Let's make one adjustment. It doesn't make much sense to keep track of `currentTrack` as a string, when the entire playlist we're working with already keeps track of our song names in an array.
+## Adding a `next()` method to the `music` object
 
-Remember, we can access a specific item in an array using its index, so let's add a property called `trackIdx` that represents the current tracks index: 
+Let’s enhance the `music` object by adding a `next()` method. This method will allow us to move to the next track in our `currentPlaylist`.
+
+One problem - how do we do that? Initially, our object has `currentTrack` and `currentPlaylist` properties, but there's no straightforward way to track our position in the playlist.
+
+To improve this, we'll make a small change. Instead of storing `currentTrack` as a string, we can use an **array index** to keep track of the current song. Let's create a new property called `trackIdx` to store the index of the current track:
+ 
 
 ```javascript
 const music = {
+  currentTrack: 'Just Ken',
   trackIdx: 0,
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70, 
 };
 ```
 
-Now we can dynamically access the current track by accessing the `trackIdx` of the `currentPlaylist`: 
+With `trackIdx`, we can dynamically find the current track from `currentPlaylist` array using square brackets `[]`:
 
 ```javascript
 console.log(music.currentPlaylist[music.trackIdx]); // 'Just Ken'
 ```
 
-Now, for our `next()` method, we can simply increment the `trackIdx` by `1`! 
+Now we can build our `next()` method. This method should simply increment the `trackIdx` by `1`! 
 
 ```javascript
 music.next = () => {
@@ -82,3 +86,26 @@ music.next();
 
 console.log(music.currentPlaylist[music.trackIdx]); // 'Hey Blondie'
 ```
+
+## 🎓 You Do 
+
+Let's look at our `music` object so far:
+
+```javascript
+const music = {
+  currentTrack: 'Just Ken',
+  trackIdx: 0,
+  currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
+  volume: 70,
+  mute: () => {
+    music.volume = 0
+  },
+  next: () => {
+  music.trackIdx += 1
+},
+}
+```
+
+But wait, what about `currentTrack`? Currently, it's just a hard coded string- meaning it wont get updated when we call our `next()` method. How can we change this so that our `currentTrack` property stays up to date?
+
+How could we use other properties in our object to dynamically set the value of `currentTrack`?
