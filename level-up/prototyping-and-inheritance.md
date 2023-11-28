@@ -1,5 +1,7 @@
 # ![Intro to JavaScript Objects - Level Up - Prototyping and Inheritance](./assets/hero-prototyping-and-inheritance.png)
 
+**Learning objective:** By the end of this lesson, students will understand the concept of prototyping and inheritance in JavaScript, enabling them to comprehend how built-in methods are accessible in different data types.
+
 Thus far, we've made use of a wide range of string and array methods in our code. These are methods that are built into the [object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes) for each of these types. 
 
 To understand how we're able to access these methods, it's important to understand that, in JavaScript, anything that is not a primitive value (string, number, bigint, boolean, undefined, symbol, or null) is an object. 

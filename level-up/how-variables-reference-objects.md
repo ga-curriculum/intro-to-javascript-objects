@@ -1,5 +1,7 @@
 # ![Intro to JavaScript Objects - Level Up - How Variables Reference Objects](./assets/hero-how-variables-reference-objects.png)
 
+**Learning objective:** By the end of this lesson, students will be able to explain how variables reference objects in JavaScript, distinguish between primitive and reference types, and understand the difference when comparing objects and arrays.
+
 As you know, variables are slots in memory that hold a value. All non-object data types are known as primitive or value types because they hold a single value. Picture a table in memory like this:
 
 ```markdown

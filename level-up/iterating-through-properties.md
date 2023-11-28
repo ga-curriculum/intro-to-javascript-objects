@@ -1,5 +1,7 @@
 # ![Intro to JavaScript Objects - Level Up - Iterating Through Properties](./assets/hero-iterating-through-properties.png)
 
+**Learning objective:** By the end of this lesson, students will be able to iterate through the properties of JavaScript objects using for...in loops and ES2017 methods (Object.keys, Object.values, Object.entries).
+
 We often need to iterate over an object’s properties. We can iterate over the keys of the properties using a `for...in` loop:
 
 ```javascript

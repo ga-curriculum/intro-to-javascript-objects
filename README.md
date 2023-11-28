@@ -2,7 +2,7 @@
 
 ## About
 
-This module introduces objects in JavaScript.
+This module offers a comprehensive exploration of JavaScript objects, including their purpose, syntax, and core functionalities like creation, access, and assignment. Ideal for beginners transitioning to intermediate levels, this sets the stage for more advanced topics such as manipulating object properties and understanding the role of methods in enhancing object functionality.
 
 ## Prerequisites
 
@@ -27,12 +27,12 @@ This module introduces objects in JavaScript.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Iterating through properties](./level-up/iterating-through-properties.md)| -- | -- | Learn how to iteration can be applied to objects. |
-| [How variables reference objects](./level-up/how-variables-reference-objects.md)| -- | -- | Understand how variables reference objects in memory. |
-| [Property shorthand syntax](./level-up/property-shorthand-syntax.md)| -- | -- | Learn the basics of property shorthand syntax when working with objects. |
-| [Square-bracket syntax](./level-up/square-bracket-notation.md)| -- | -- | Learn the basics of square bracket notation when working with objects. |
-| [Prototyping and Inheritance](./level-up/prototyping-and-inheritance.md)| -- | -- | Understand the basics of prototyping and inheritance |
-| [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Understand the basics of getters and setters |
+| [Iterating through properties](./level-up/iterating-through-properties.md)| -- | -- | Iterating over object properties with `for...in` loops and ES2017 methods. |
+| [How variables reference objects](./level-up/how-variables-reference-objects.md)| -- | -- | How variables reference objects in memory |
+| [Property shorthand syntax](./level-up/property-shorthand-syntax.md)| -- | -- | Property shorthand syntax in object creation |
+| [Square-bracket syntax](./level-up/square-bracket-notation.md)| -- | -- | Dynamic property access using square bracket notation |
+| [Prototyping and Inheritance](./level-up/prototyping-and-inheritance.md)| -- | -- | Prototypes and inheritance in JavaScript |
+| [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Getters and setters in JavaScript objects |
 | **Total Level Up content** | -- | -- | |
 
 ## References
