@@ -6,7 +6,7 @@ For reference, here is our current `music` object:
 
 ```javascript
 const music = {
-  currentTrack: music.currentPlaylist[music.trackIdx],
+  currentTrack: 'Just Ken',
   trackIdx: 0,
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70,
@@ -14,8 +14,9 @@ const music = {
     music.volume = 0
   },
   next: () => {
-  music.trackIdx += 1
-},
+    music.trackIdx += 1
+    music.currentTrack = music.currentPlaylist[music.trackIdx]
+  },
 }
 ```
 
