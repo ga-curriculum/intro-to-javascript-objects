@@ -19,6 +19,7 @@ This module offers a beginner-friendly introduction to JavaScript objects, cover
 
 | Lesson                                                                            | Skills                                                                     |
 | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [this](../level-up/this.md)                                                       | A brief introduction to _this_ in Javascript                               |
 | [Getters and Setters](../level-up/getters-and-setters.md)                         | Getters and setters in JavaScript objects                                  |
 | [Iterating through properties](../level-up/iterating-through-properties.md)       | Iterating over object properties with `for...in` loops and ES2017 methods. |
 | [Property shorthand syntax](../level-up/property-shorthand-syntax.md)             | Property shorthand syntax in object creation                               |
