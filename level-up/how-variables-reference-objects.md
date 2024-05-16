@@ -28,7 +28,7 @@ let obj2 = obj     -->  obj2|  ref1   -----------------
 
 Similarly, the elements of an array and the properties of an object hold their values in the same way.
 
-Now this all makes sense:
+Now this makes sense:
 
 ```javascript
 const arr1 = []

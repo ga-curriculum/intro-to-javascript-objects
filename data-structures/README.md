@@ -10,10 +10,10 @@ const music = {
   trackIdx: 0,
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70,
-  mute: () => {
+  mute(){
     music.volume = 0
   },
-  next: () => {
+  next(){
     music.trackIdx += 1
     music.currentTrack = music.currentPlaylist[music.trackIdx]
   },

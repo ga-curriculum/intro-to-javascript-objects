@@ -27,12 +27,12 @@ This module offers a beginner-friendly introduction to JavaScript objects, cover
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
+| [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Getters and setters in JavaScript objects |
 | [Iterating through properties](./level-up/iterating-through-properties.md)| -- | -- | Iterating over object properties with `for...in` loops and ES2017 methods. |
-| [How variables reference objects](./level-up/how-variables-reference-objects.md)| -- | -- | How variables reference objects in memory |
 | [Property shorthand syntax](./level-up/property-shorthand-syntax.md)| -- | -- | Property shorthand syntax in object creation |
+| [How variables reference objects](./level-up/how-variables-reference-objects.md)| -- | -- | How variables reference objects in memory |
 | [Square-bracket syntax](./level-up/square-bracket-notation.md)| -- | -- | Dynamic property access using square bracket notation |
 | [Prototyping and Inheritance](./level-up/prototyping-and-inheritance.md)| -- | -- | Prototypes and inheritance in JavaScript |
-| [Getters and Setters](./level-up/getters-and-setters.md)| -- | -- | Getters and setters in JavaScript objects |
 | **Total Level Up content** | -- | -- | |
 
 ## References

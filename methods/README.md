@@ -14,7 +14,7 @@ const music = {
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70, 
   // add the following: 
-  mute: () => {
+  mute(){
     music.volume = 0
   }
 }
@@ -23,10 +23,15 @@ const music = {
 You could also use dot notation assignment to define the same method if an object already exists: 
 
 ```javascript
-music.mute = () => {
+music.mute = function () {
   music.volume = 0
 }
 ```
+
+> Why not an arrow function here? Arrow functions are great, but they work a bit differently than regular functions under the hood, especially when dealing with objects. Regular functions are designed to work smoothly with objects when you define methods that need to interact with the object itself. 
+
+
+## Calling object methods
 
 In JavaScript, calling (or invoking) a method is similar to calling a function, but with an important difference: a method is called on an object and it only exists within that object's context.
 
@@ -75,7 +80,7 @@ console.log(music.currentPlaylist[music.trackIdx]); // 'Just Ken'
 Now we can build our `next()` method. This method should simply increment the `trackIdx` by `1`! 
 
 ```javascript
-music.next = () => {
+music.next = function() {
   music.trackIdx += 1
 }
 ```
@@ -97,11 +102,11 @@ const music = {
   trackIdx: 0,
   currentPlaylist: ['Just Ken', 'Hey Blondie', 'What Was I Made For', 'Dance The Night'],
   volume: 70,
-  mute: () => {
+  mute(){
     music.volume = 0
   },
-  next: () => {
-  music.trackIdx += 1
+  next(){
+    music.trackIdx += 1
 },
 }
 ```
