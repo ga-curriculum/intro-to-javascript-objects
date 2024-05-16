@@ -6,26 +6,25 @@ This module offers a beginner-friendly introduction to JavaScript objects, cover
 
 ## Content
 
-| Lesson | Skills |
-| ------ | ------ |
-| [Setup](../setup/README.md) | Setting up the development environment |
-| [Concepts](../concepts/README.md) | Defining object purpose and syntax |
-| [Fundamentals](../fundamentals/README.md) | Object creation, access, and assignment |
-| [Manipulation](../manipulation/README.md) | Changing and deleting properties in objects |
-| [Methods](../methods/README.md) | Creating and calling methods on objects |
+| Lesson                                          | Skills                                                      |
+| ----------------------------------------------- | ----------------------------------------------------------- |
+| [Setup](../setup/README.md)                     | Setting up the development environment                      |
+| [Concepts](../concepts/README.md)               | Defining object purpose and syntax                          |
+| [Fundamentals](../fundamentals/README.md)       | Object creation, access, and assignment                     |
+| [Manipulation](../manipulation/README.md)       | Changing and deleting properties in objects                 |
+| [Methods](../methods/README.md)                 | Creating and calling methods on objects                     |
 | [Data Structures](../data-structures/README.md) | Combining objects and arrays to form common data structures |
 
 ## Level Up content
 
-| Lesson | Skills |
-| ------ | ------ |
-| [Iterating through properties](../level-up/iterating-through-properties.md)| Iterating over object properties with `for...in` loops and ES2017 methods. |
-| [How variables reference objects](../level-up/how-variables-reference-objects.md)| How variables reference objects in memory |
-| [Property shorthand syntax](../level-up/property-shorthand-syntax.md)| Property shorthand syntax in object creation |
-| [Square-bracket syntax](../level-up/square-bracket-notation.md)| Dynamic property access using square bracket notation |
-| [Prototyping and Inheritance](../level-up/prototyping-and-inheritance.md)| Prototypes and inheritance in JavaScript |
-| [Getters and Setters](../level-up/getters-and-setters.md)| Getters and setters in JavaScript objects |
-
+| Lesson                                                                            | Skills                                                                     |
+| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Getters and Setters](../level-up/getters-and-setters.md)                         | Getters and setters in JavaScript objects                                  |
+| [Iterating through properties](../level-up/iterating-through-properties.md)       | Iterating over object properties with `for...in` loops and ES2017 methods. |
+| [Property shorthand syntax](../level-up/property-shorthand-syntax.md)             | Property shorthand syntax in object creation                               |
+| [How variables reference objects](../level-up/how-variables-reference-objects.md) | How variables reference objects in memory                                  |
+| [Square-bracket syntax](../level-up/square-bracket-notation.md)                   | Dynamic property access using square bracket notation                      |
+| [Prototyping and Inheritance](../level-up/prototyping-and-inheritance.md)         | Prototypes and inheritance in JavaScript                                   |
 
 ## References
 
