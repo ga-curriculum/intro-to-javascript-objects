@@ -6,8 +6,8 @@ Let' imagine we have an object with details about a student:
 
 ```js
 const student = {
-  name: Ashley,
-  email: student@email.com,
+  name: 'Ashley',
+  email: 'student@email.com',
   enrolled: true,
 }
 ```
