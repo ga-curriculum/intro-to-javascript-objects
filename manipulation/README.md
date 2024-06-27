@@ -19,7 +19,7 @@ music.volume = 60;
 console.log(music.volume) // 60
 ```
 
-When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated. In this example, `volume` already exists as a property on `music` so this line of code update the value.
+When using the assignment operator, if a property doesn’t exist, it is created; otherwise, it’s updated. In this example, `volume` already exists as a property on `music` so this line of code updates the value.
 
 
 ## Deleting an object's properties
