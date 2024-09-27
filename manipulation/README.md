@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects - Manipulation](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects</span>
+  <span class="subhead">Manipulation</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to manipulate objects, by changing and deleting properties.
 

@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects - References](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
 

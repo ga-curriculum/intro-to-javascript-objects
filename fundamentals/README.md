@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects - Fundamentals](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects</span>
+  <span class="subhead">Fundamentals</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to apply the basics of object creation, access, and assignment.
 
