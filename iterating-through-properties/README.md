@@ -9,8 +9,8 @@ Let' imagine we have an object with details about a student:
 
 ```js
 const student = {
-  name: Ashley,
-  email: student@email.com,
+  name: 'Ashley',
+  email: 'student@email.com',
   enrolled: true,
 }
 ```
@@ -23,8 +23,8 @@ for (let key in student) {
 }
 
 // Output
-// The value of the name property is Ashley
-// The value of the email property is student@email.com
+// The value of the name property is 'Ashley'
+// The value of the email property is 'student@email.com'
 // The value of the enrolled property is true
 ```
 
@@ -44,8 +44,8 @@ Object.values(student).forEach(function(val) {
 })
 
 // Output
-// Ashley
-// student@email.com
+// 'Ashley'
+// 'student@email.com'
 // true
 ```
 
