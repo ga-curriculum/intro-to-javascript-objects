@@ -36,5 +36,38 @@ courses {
       mls.prototypingAndInheritance
     }
   }
+  new {
+    name = "seb"
+    microlessons {
+      // add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.concepts
+      mls.fundamentals
+      mls.manipulation
+      mls.methods
+      mls.dataStructures
+      (mls.`this`) {
+        type = "Level Up content"
+      }
+      (mls.gettersAndSetters) {
+        type = "Level Up content"
+      }
+      (mls.iteratingThroughProperties) {
+        type = "Level Up content"
+      }
+      (mls.propertyShorthandSyntax) {
+        type = "Level Up content"
+      }
+      (mls.howVariablesReferenceObjects) {
+        type = "Level Up content"
+      }
+      (mls.squareBracketNotation) {
+        type = "Level Up content"
+      }
+      (mls.prototypingAndInheritance) {
+        type = "Level Up content"
+      }
+    }
+  }
 }
 
