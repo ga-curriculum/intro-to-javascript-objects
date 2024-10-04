@@ -9,22 +9,21 @@ This module offers a beginner-friendly introduction to JavaScript objects, cover
 
 ## Content
 
-| Lesson                                                                         | Video Time | Video | Skills                                                                     |
-| ------------------------------------------------------------------------------ | :--------: | :---: | -------------------------------------------------------------------------- |
-| [Setup](./setup/README.md)                                                     |     --     |  --   | Setting up the development environment                                     |
-| [Concepts](./concepts/README.md)                                               |     --     |  --   | Defining object purpose and syntax                                         |
-| [Fundamentals](./fundamentals/README.md)                                       |     --     |  --   | Object creation, access, and assignment                                    |
-| [Manipulation](./manipulation/README.md)                                       |     --     |  --   | Changing and deleting properties in objects                                |
-| [Methods](./methods/README.md)                                                 |     --     |  --   | Creating and calling methods on objects                                    |
-| [Data Structures](./data-structures/README.md)                                 |     --     |  --   | Combining objects and arrays to form common data structures                |
-| [this](./this/README.md)                                                       |     --     |  --   | A brief introduction to _this_ in Javascript                               |
-| [Getters and Setters](./getters-and-setters/README.md)                         |     --     |  --   | Getters and setters in JavaScript objects                                  |
-| [Iterating through properties](./iterating-through-properties/README.md)       |     --     |  --   | Iterating over object properties with `for...in` loops and ES2017 methods. |
-| [Property shorthand syntax](./property-shorthand-syntax/README.md)             |     --     |  --   | Property shorthand syntax in object creation                               |
-| [How variables reference objects](./how-variables-reference-objects/README.md) |     --     |  --   | How variables reference objects in memory                                  |
-| [Square-bracket syntax](./square-bracket-notation/README.md)                   |     --     |  --   | Dynamic property access using square bracket notation                      |
-| [Prototyping and Inheritance](./prototyping-and-inheritance/README.md)         |     --     |  --   | Prototypes and inheritance in JavaScript                                   |
-| **Total content**                                                              |     --     |  --   |                                                                            |
+| Lesson                                                                         | Skills                                                                     |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                     | Setting up the development environment                                     |
+| [Concepts](./concepts/README.md)                                               | Defining object purpose and syntax                                         |
+| [Fundamentals](./fundamentals/README.md)                                       | Object creation, access, and assignment                                    |
+| [Manipulation](./manipulation/README.md)                                       | Changing and deleting properties in objects                                |
+| [Methods](./methods/README.md)                                                 | Creating and calling methods on objects                                    |
+| [Data Structures](./data-structures/README.md)                                 | Combining objects and arrays to form common data structures                |
+| [this](./this/README.md)                                                       | A brief introduction to _this_ in Javascript                               |
+| [Getters and Setters](./getters-and-setters/README.md)                         | Getters and setters in JavaScript objects                                  |
+| [Iterating through properties](./iterating-through-properties/README.md)       | Iterating over object properties with `for...in` loops and ES2017 methods. |
+| [Property shorthand syntax](./property-shorthand-syntax/README.md)             | Property shorthand syntax in object creation                               |
+| [How variables reference objects](./how-variables-reference-objects/README.md) | How variables reference objects in memory                                  |
+| [Square-bracket syntax](./square-bracket-notation/README.md)                   | Dynamic property access using square bracket notation                      |
+| [Prototyping and Inheritance](./prototyping-and-inheritance/README.md)         | Prototypes and inheritance in JavaScript                                   |
 
 ## References
 
