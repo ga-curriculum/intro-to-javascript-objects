@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects - Data Structures](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects</span>
+  <span class="subhead">Data Structures</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how objects and arrays combine to form common data structures in JavaScript.
 

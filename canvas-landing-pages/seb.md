@@ -1,4 +1,7 @@
-# ![Intro to JavaScript Objects](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to JavaScript Objects</span>
+</h1>
 
 ## About
 
@@ -17,15 +20,15 @@ This module offers a beginner-friendly introduction to JavaScript objects, cover
 
 ## Level Up content
 
-| Lesson                                                                            | Skills                                                                     |
-| --------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [this](../level-up/this.md)                                                       | A brief introduction to _this_ in Javascript                               |
-| [Getters and Setters](../level-up/getters-and-setters.md)                         | Getters and setters in JavaScript objects                                  |
-| [Iterating through properties](../level-up/iterating-through-properties.md)       | Iterating over object properties with `for...in` loops and ES2017 methods. |
-| [Property shorthand syntax](../level-up/property-shorthand-syntax.md)             | Property shorthand syntax in object creation                               |
-| [How variables reference objects](../level-up/how-variables-reference-objects.md) | How variables reference objects in memory                                  |
-| [Square-bracket syntax](../level-up/square-bracket-notation.md)                   | Dynamic property access using square bracket notation                      |
-| [Prototyping and Inheritance](../level-up/prototyping-and-inheritance.md)         | Prototypes and inheritance in JavaScript                                   |
+| Lesson                                                                          | Skills                                                                     |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [`this`](../this/README.md)                                                     | A brief introduction to _this_ in Javascript                               |
+| [Getters and Setters](../getters-and-setters/README.md)                         | Getters and setters in JavaScript objects                                  |
+| [Iterating through properties](../iterating-through-properties/README.md)       | Iterating over object properties with `for...in` loops and ES2017 methods. |
+| [Property shorthand syntax](../property-shorthand-syntax/README.md)             | Property shorthand syntax in object creation                               |
+| [How variables reference objects](../how-variables-reference-objects/README.md) | How variables reference objects in memory                                  |
+| [Square-bracket syntax](../square-bracket-notation/README.md)                   | Dynamic property access using square bracket notation                      |
+| [Prototyping and Inheritance](../prototyping-and-inheritance/README.md)         | Prototypes and inheritance in JavaScript                                   |
 
 ## References
 

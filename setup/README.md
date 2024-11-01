@@ -1,23 +1,27 @@
-# ![Intro to JavaScript Objects - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to JavaScript Objects</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
 ```bash
 cd ~/code/ga/lectures
 ```
-Make a new directory called `intro-to-js-objects`, then enter this directory:
+
+Make a new directory called `intro-to-javascript-objects`, then enter this directory:
 
 ```bash
-mkdir intro-to-js-objects
-cd intro-to-js-objects
+mkdir intro-to-javascript-objects
+cd intro-to-javascript-objects
 ```
 
 Then, create an `app.js` and an `index.html` file. These files will hold your work for this lecture:
 
-
 ```bash
 touch index.html app.js
 ```
+
 With the files created, open the contents of the directory in VS Code:
 
 ```bash
