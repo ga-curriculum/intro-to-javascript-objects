@@ -45,7 +45,7 @@ dataStructures = new Template.Microlesson {
 }
 
 `this` = new Template.Microlesson {
-  friendlyName = "<code>this</code>"
+  friendlyName = " this "
   dirName = "this"
   type = "Content"
   videoUrl = ""

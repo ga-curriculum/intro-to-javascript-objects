@@ -50,7 +50,7 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "<code>this</code>",
+          "friendlyName": " this ",
           "dirName": "this",
           "type": "Content",
           "videoUrl": ""
@@ -155,7 +155,7 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "<code>this</code>",
+          "friendlyName": " this ",
           "dirName": "this",
           "type": "Level Up content",
           "videoUrl": ""
