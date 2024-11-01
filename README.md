@@ -37,6 +37,11 @@ This module offers a beginner-friendly introduction to JavaScript objects, cover
 - JavaScript Control Flow
 - Intro to JavaScript Functions
 
+### Github Pages Sites
+
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-objects/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-objects/canvas-landing-pages/seb)
+
 ### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
